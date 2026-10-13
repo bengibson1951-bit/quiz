@@ -1,0 +1,14 @@
+{
+  "name": "Pluggquiz",
+  "short_name": "Pluggquiz",
+  "description": "Study quiz that keeps asking until you have every question right.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#00b894",
+  "theme_color": "#00b894",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

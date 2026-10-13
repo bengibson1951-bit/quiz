@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#00b894" />
+  <title>Pluggquiz</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HOME -->
+  <section data-screen="home" class="active">
+    <div class="top-row">
+      <div class="lang" role="group" aria-label="Language">
+        <button data-lang="sv">SV</button>
+        <button data-lang="en">EN</button>
+      </div>
+      <button class="chip" id="btn-settings">⚙️ <span data-i18n="settings"></span></button>
+    </div>
+
+    <div class="hero">
+      <div class="mascot">📚</div>
+      <h1 data-i18n="appName"></h1>
+      <p class="tagline" data-i18n="tagline"></p>
+    </div>
+
+    <div id="home-resume"></div>
+    <div id="home-sets" class="stack"></div>
+    <p class="muted center" id="home-error" hidden></p>
+  </section>
+
+  <!-- QUIZ -->
+  <section data-screen="quiz">
+    <div class="top-row">
+      <button class="chip" id="btn-quit" data-i18n="quit"></button>
+      <div class="progress"><div id="progress-bar"></div></div>
+      <span class="chip" id="remaining"></span>
+    </div>
+
+    <div class="q-card card" id="q-card">
+      <div class="q-topic" id="q-topic"></div>
+      <div class="q-text" id="q-text"></div>
+    </div>
+
+    <div class="answers" id="answers"></div>
+
+    <form id="text-form" class="text-form" hidden autocomplete="off">
+      <input type="text" id="text-input" autocapitalize="off" autocorrect="off" spellcheck="false" data-i18n-placeholder="typeAnswer" />
+      <button type="submit" class="big-btn btn-mint" id="btn-check" data-i18n="check"></button>
+    </form>
+
+    <div class="feedback" id="feedback" hidden>
+      <div class="fb-title" id="fb-title"></div>
+      <div class="fb-answer" id="fb-answer"></div>
+      <div class="fb-explain" id="fb-explain"></div>
+    </div>
+
+    <button class="big-btn btn-next" id="btn-next" data-i18n="next" hidden></button>
+  </section>
+
+  <!-- RESULTS -->
+  <section data-screen="results">
+    <div class="hero">
+      <div class="res-stars" id="res-stars"></div>
+      <div class="big-score" id="res-pct"></div>
+      <p class="sub" id="res-first"></p>
+      <p class="sub muted-light" id="res-attempts"></p>
+      <p class="sub" id="res-msg"></p>
+    </div>
+
+    <div class="stack">
+      <button class="big-btn btn-mint" id="btn-missed" data-i18n="onlyMissed"></button>
+      <button class="big-btn btn-sky" id="btn-again" data-i18n="again"></button>
+      <button class="big-btn btn-soft" id="btn-home" data-i18n="home"></button>
+    </div>
+
+    <div class="card">
+      <h3 class="card-title" data-i18n="missedTitle"></h3>
+      <ul class="missed" id="res-missed"></ul>
+    </div>
+  </section>
+
+  <!-- SETTINGS -->
+  <section data-screen="settings">
+    <div class="top-row">
+      <button class="chip" id="btn-back">← <span data-i18n="back"></span></button>
+      <span class="chip">⚙️ <span data-i18n="settings"></span></span>
+    </div>
+
+    <div class="card">
+      <h3 class="card-title" data-i18n="language"></h3>
+      <div class="segmented two">
+        <button data-lang="sv">Svenska</button>
+        <button data-lang="en">English</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 class="card-title" data-i18n="importTitle"></h3>
+      <p class="muted small" data-i18n="importHelp"></p>
+      <textarea id="import-text" rows="6" placeholder='{ "id": "...", "title": "...", "lang": "sv", "questions": [ ... ] }'></textarea>
+      <button class="big-btn btn-mint full" id="btn-import" data-i18n="importBtn"></button>
+      <p class="import-msg" id="import-msg" hidden></p>
+    </div>
+
+    <div class="card">
+      <h3 class="card-title" data-i18n="importedSets"></h3>
+      <ul class="imported" id="imported-list"></ul>
+    </div>
+
+    <button class="link-btn" id="btn-clear" data-i18n="clearResults"></button>
+  </section>
+
+  <script type="module" src="app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+    }
+  </script>
+</body>
+</html>

@@ -96,19 +96,20 @@ a valid set from photos of a booklet.
 ```
 { lang: "sv"|"en",
   imported: { [setId]: set },
-  history: { [setId]: { last: {date, total, firstTry, attempts}, bestFirstTry: n } },
-  resume: { setId, mode, run, shuffled: {id: [optionTexts]} } | null }
+  history: { [setId]: { last: {date, total, firstTry, attempts}, bestPct: n } },
+  resume: { [setId]: { mode, run, shuffled: {id: [optionTexts]} } } }
 ```
 
-`resume` is written after every answer and cleared on finish or quit, so a page
-refresh mid-quiz continues where it was.
+`resume[setId]` is written after every answer and cleared on finish, so a page
+refresh or a quit mid-quiz can be continued later from Home. One slot per set,
+so starting another set does not lose progress in the first.
 
 ## Screens (`app.js`)
 
 - **Home**: brand row with EN/SV toggle and a ⚙ Settings button. Card per set
   (bundled, then imported) with title, subtitle, question count, last result
-  ("12/14 first try") and best. Tapping a set starts a full run. If `resume`
-  exists, a "Continue" card appears first.
+  ("12/14 first try") and best. Tapping a set starts a full run. A "Continue"
+  card appears first for every set with a saved run.
 - **Quiz**: Quit chip, progress bar (done / total) and remaining count, topic
   label, question text, then either 4 option buttons or a text input with a
   Check button (Enter submits). After answering: the chosen option turns
