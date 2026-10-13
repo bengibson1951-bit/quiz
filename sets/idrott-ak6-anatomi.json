@@ -1,0 +1,567 @@
+{
+  "id": "idrott-ak6-anatomi",
+  "title": "Anatomi, Fysiologi, Kost och Idrottsskador",
+  "subtitle": "År 6 · Idrott och Hälsa · Lgr22",
+  "lang": "sv",
+  "created": "2026-10-13",
+  "questions": [
+    {
+      "id": "a01", "type": "mc", "topic": "Anatomi – Skelettet",
+      "q": "Ungefär hur många ben består skelettet av?",
+      "options": ["Drygt 206", "Drygt 106", "Drygt 306", "Drygt 506"],
+      "answer": 0,
+      "explain": "Skelettet hos en växande människa består av drygt 206 ben."
+    },
+    {
+      "id": "a02", "type": "mc", "topic": "Anatomi – Skelettet",
+      "q": "Vad händer med skelettet när du belastar det?",
+      "options": ["Det stärks, eftersom det är levande vävnad", "Det slits ner lite för varje gång", "Ingenting, skelettet ändras inte", "Det blir mjukare och mer böjligt"],
+      "answer": 0,
+      "explain": "Skelettet är levande vävnad som stärks när du belastar det."
+    },
+    {
+      "id": "a03", "type": "mc", "topic": "Anatomi – Skelettet",
+      "q": "Vilken är INTE en av skelettets fyra primära funktioner?",
+      "options": ["Pumpa runt blodet", "Stödja och ge form", "Skydda inre organ", "Tillverka blodkroppar"],
+      "answer": 0,
+      "explain": "Skelettets fyra funktioner: stödja och ge form, skydda inre organ, möjliggöra rörelse och tillverka blodkroppar. Blodet pumpas av hjärtat."
+    },
+    {
+      "id": "a04", "type": "text", "topic": "Anatomi – Skelettet",
+      "q": "Vilken del av skelettet skyddar hjärnan mot stötar?",
+      "answers": ["kraniet", "kranium", "skallen", "skalle"],
+      "explain": "Kraniet (skallen) skyddar hjärnan mot stötar."
+    },
+    {
+      "id": "a05", "type": "mc", "topic": "Anatomi – Skelettet",
+      "q": "Vad skyddar revbenen och bröstbenet?",
+      "options": ["Hjärta och lungor", "Hjärnan", "Ryggmärgen", "Magen och tarmarna"],
+      "answer": 0,
+      "explain": "Revben och bröstben bildar en skyddande korg runt hjärta och lungor."
+    },
+    {
+      "id": "a06", "type": "mc", "topic": "Anatomi – Skelettet",
+      "q": "Vad omsluter och skyddar ryggraden?",
+      "options": ["Ryggmärgen", "Lungorna", "Njurarna", "Hjärtat"],
+      "answer": 0,
+      "explain": "Ryggraden omsluter och skyddar den känsliga ryggmärgen."
+    },
+    {
+      "id": "a07", "type": "mc", "topic": "Anatomi – Skelettet",
+      "q": "Var i kroppen bildas röda och vita blodkroppar?",
+      "options": ["I benmärgen inuti de stora benen", "I hjärtat", "I lungorna", "I musklerna"],
+      "answer": 0,
+      "explain": "Inuti de stora benens svampaktiga benmärg bildas kroppens röda och vita blodkroppar."
+    },
+    {
+      "id": "a08", "type": "mc", "topic": "Anatomi – Skelettet",
+      "q": "Hur möjliggör skelettet rörelse?",
+      "options": ["Benen fungerar som hävstänger som musklerna drar i", "Benen drar ihop sig själva", "Benen är fyllda med ledvätska som pumpar", "Benen är elastiska och fjädrar"],
+      "answer": 0,
+      "explain": "Benen fungerar som hävstänger som musklerna drar i."
+    },
+    {
+      "id": "a09", "type": "mc", "topic": "Anatomi – Skelettet",
+      "q": "Vad heter det stora benet i låret?",
+      "options": ["Lårbenet", "Skenbenet", "Vadbenet", "Strålbenet"],
+      "answer": 0,
+      "explain": "Lårbenet sitter i låret; skenbenet och vadbenet sitter i underbenet."
+    },
+    {
+      "id": "a10", "type": "mc", "topic": "Anatomi – Skelettet",
+      "q": "Vilka två ben finns i underarmen?",
+      "options": ["Armbågsbenet och strålbenet", "Överarmsbenet och nyckelbenet", "Skenbenet och vadbenet", "Tarmbenet och korsbenet"],
+      "answer": 0,
+      "explain": "Underarmen har två ben: armbågsbenet och strålbenet."
+    },
+    {
+      "id": "a11", "type": "text", "topic": "Anatomi – Skelettet",
+      "q": "Vad heter benet framför knäleden?",
+      "answers": ["knäskålen", "knäskål", "knäskålsbenet"],
+      "explain": "Knäskålen sitter framför knäleden."
+    },
+    {
+      "id": "a12", "type": "mc", "topic": "Anatomi – Leder",
+      "q": "Var finns en led?",
+      "options": ["Där två eller flera ben möts", "Där en muskel fäster vid huden", "Mitt på ett långt ben", "Där blodet byter riktning"],
+      "answer": 0,
+      "explain": "En led finns där två eller flera ben möts."
+    },
+    {
+      "id": "a13", "type": "text", "topic": "Anatomi – Leder",
+      "q": "Vad kallas det glatta lager som täcker ledytorna så att benen inte gnids mot varandra?",
+      "answers": ["brosk", "ledbrosk"],
+      "explain": "Ledytorna är täckta med ett glatt brosk och smörjs av ledvätska."
+    },
+    {
+      "id": "a14", "type": "text", "topic": "Anatomi – Leder",
+      "q": "Vad kallas vätskan som smörjer leden?",
+      "answers": ["ledvätska", "ledvätskan"],
+      "explain": "Leden smörjs av ledvätska."
+    },
+    {
+      "id": "a15", "type": "mc", "topic": "Anatomi – Leder",
+      "q": "Axeln och höften är exempel på vilken typ av led?",
+      "options": ["Kulled", "Gångjärnsled", "Vridled", "Fast led"],
+      "answer": 0,
+      "explain": "Kulled (t.ex. axel och höft): benets ände är som en kula i en skål och tillåter rörelse i alla riktningar (360 grader)."
+    },
+    {
+      "id": "a16", "type": "mc", "topic": "Anatomi – Leder",
+      "q": "Vilken ledtyp kan bara böjas och sträckas i ett plan, som en dörr?",
+      "options": ["Gångjärnsled", "Kulled", "Vridled", "Glidled"],
+      "answer": 0,
+      "explain": "Gångjärnsleden (t.ex. knä, armbåge och fingrar) fungerar som gångjärnet på en dörr."
+    },
+    {
+      "id": "a17", "type": "mc", "topic": "Anatomi – Leder",
+      "q": "Vilken ledtyp gör att du kan vrida handflatan eller skaka på huvudet?",
+      "options": ["Vridled", "Kulled", "Gångjärnsled", "Sadelled"],
+      "answer": 0,
+      "explain": "Vridleden (t.ex. underarm och översta halskotan) tillåter en roterande rörelse."
+    },
+    {
+      "id": "a18", "type": "mc", "topic": "Anatomi – Leder",
+      "q": "Knä, armbåge och fingrar är exempel på …",
+      "options": ["gångjärnsleder", "kulleder", "vridleder", "ledkapslar"],
+      "answer": 0,
+      "explain": "Knä, armbåge och fingrar är gångjärnsleder."
+    },
+    {
+      "id": "a19", "type": "mc", "topic": "Anatomi – Muskler",
+      "q": "Hur arbetar skelettmuskler?",
+      "options": ["Genom att dra ihop sig (kontrahera)", "Genom att trycka ifrån", "Genom att töjas ut", "Genom att vrida sig"],
+      "answer": 0,
+      "explain": "Skelettmuskler styrs med viljan och arbetar genom att dra ihop sig (kontrahera)."
+    },
+    {
+      "id": "a20", "type": "mc", "topic": "Anatomi – Muskler",
+      "q": "Biceps böjer armen. Vilken muskel sträcker den?",
+      "options": ["Triceps", "Stora bröstmuskeln", "Raka bukmuskeln", "Främre sågmuskeln"],
+      "answer": 0,
+      "explain": "Musklerna arbetar ofta i par: biceps böjer armen och triceps sträcker den."
+    },
+    {
+      "id": "a21", "type": "text", "topic": "Anatomi – Muskler",
+      "q": "Vad kallas de starka strängar av bindväv som fäster muskeln vid benet?",
+      "answers": ["senor", "sena", "senan", "senorna"],
+      "explain": "Senor är starka strängar av bindväv som fäster muskeln vid benet."
+    },
+    {
+      "id": "a22", "type": "mc", "topic": "Anatomi – Muskler",
+      "q": "Vad gör ett ligament (ledband)?",
+      "options": ["Kopplar ihop ben med ben över en led och håller leden stabil", "Fäster muskeln vid benet", "Smörjer leden", "Bildar blodkroppar"],
+      "answer": 0,
+      "explain": "Ligament (ledband) är sega, starka vävnadsband som kopplar ihop ben med ben tvärs över en led."
+    },
+    {
+      "id": "f01", "type": "mc", "topic": "Fysiologi – Syretransport",
+      "q": "Var i lungorna tas syret upp av blodet?",
+      "options": ["I alveolerna (lungblåsorna)", "I luftstrupen", "I vensystemet", "I hjärtmuskeln"],
+      "answer": 0,
+      "explain": "Syre dras ner i lungornas alveoler (lungblåsor) där det tas upp av blodet."
+    },
+    {
+      "id": "f02", "type": "text", "topic": "Fysiologi – Syretransport",
+      "q": "Vad kallas blodkärlen som transporterar syrerikt blod från hjärtat ut till musklerna?",
+      "answers": ["artärer", "artär", "artärerna", "pulsådror"],
+      "explain": "Syre transporteras från hjärtat via artärer ut till musklerna."
+    },
+    {
+      "id": "f03", "type": "text", "topic": "Fysiologi – Syretransport",
+      "q": "Vad kallas blodkärlen som för koldioxiden tillbaka till lungorna?",
+      "answers": ["vener", "ven", "venerna"],
+      "explain": "Blodet för koldioxiden tillbaka till lungorna via vener, så att du kan andas ut den."
+    },
+    {
+      "id": "f04", "type": "mc", "topic": "Fysiologi – Syretransport",
+      "q": "Vilken avfallsprodukt bildar musklerna när de använder syret?",
+      "options": ["Koldioxid", "Syre", "Kväve", "Mjölk"],
+      "answer": 0,
+      "explain": "Musklerna använder syret och bildar avfallsprodukten koldioxid."
+    },
+    {
+      "id": "f05", "type": "mc", "topic": "Fysiologi – Syretransport",
+      "q": "Vad är rätt ordning i syretransportkedjan?",
+      "options": ["Lungorna → hjärtat → artärer → musklerna → vener", "Hjärtat → lungorna → vener → musklerna → artärer", "Musklerna → artärer → hjärtat → lungorna → vener", "Lungorna → vener → musklerna → hjärtat → artärer"],
+      "answer": 0,
+      "explain": "Lungorna tar upp syret, hjärtat pumpar, artärerna leder ut till musklerna och venerna tar koldioxiden tillbaka till lungorna."
+    },
+    {
+      "id": "f06", "type": "mc", "topic": "Fysiologi – Puls",
+      "q": "Ungefär vilken vilopuls har barn?",
+      "options": ["60–80 slag per minut", "20–40 slag per minut", "100–120 slag per minut", "150–180 slag per minut"],
+      "answer": 0,
+      "explain": "Vilopulsen är hjärtats slag per minut vid vila, ca 60–80 slag/min för barn."
+    },
+    {
+      "id": "f07", "type": "mc", "topic": "Fysiologi – Puls",
+      "q": "Varför får en vältränad person lägre puls vid samma ansträngning?",
+      "options": ["Ett starkare hjärta pumpar mer blod per slag", "Musklerna behöver inte längre syre", "Blodet blir tunnare", "Lungorna blir mindre"],
+      "answer": 0,
+      "explain": "Träning gör hjärtat starkare. Ett starkare hjärta pumpar mer blod per slag, vilket ger lägre puls vid samma ansträngning."
+    },
+    {
+      "id": "f08", "type": "mc", "topic": "Fysiologi – Puls",
+      "q": "Varför slår hjärtat snabbare när du tränar (arbetspuls)?",
+      "options": ["Musklerna kräver mer syre", "Blodet blir tjockare", "Lungorna stängs av", "Kroppen vill kylas ner"],
+      "answer": 0,
+      "explain": "Arbetspuls: hjärtat pumpar snabbare när musklerna kräver mer syre under träning."
+    },
+    {
+      "id": "k01", "type": "mc", "topic": "Kost – Näringsämnen",
+      "q": "Vilket näringsämne kallas \"kroppens bensin\"?",
+      "options": ["Kolhydrater", "Proteiner", "Fett", "Vitaminer"],
+      "answer": 0,
+      "explain": "Kolhydrater är kroppens bensin: det viktigaste bränslet för hjärnan och musklerna under träning."
+    },
+    {
+      "id": "k02", "type": "mc", "topic": "Kost – Näringsämnen",
+      "q": "Vilket är ett exempel på långsamma kolhydrater?",
+      "options": ["Havregrynsgröt", "Godis", "Läsk", "Ljust bröd"],
+      "answer": 0,
+      "explain": "Långsamma kolhydrater (fullkornspasta, havregrynsgröt, grovt bröd) ger en jämn energitillförsel som räcker länge."
+    },
+    {
+      "id": "k03", "type": "mc", "topic": "Kost – Näringsämnen",
+      "q": "Vad händer när du äter snabba kolhydrater som godis och läsk?",
+      "options": ["Snabb energi, men du blir snabbt trött igen", "Jämn energi som räcker hela dagen", "Musklerna byggs upp", "Kroppen tar upp mer vitaminer"],
+      "answer": 0,
+      "explain": "Snabba kolhydrater ger snabb energi men gör att du snabbt blir trött igen."
+    },
+    {
+      "id": "k04", "type": "text", "topic": "Kost – Näringsämnen",
+      "q": "Vilket näringsämne kallas \"kroppens byggstenar\" och behövs för att bygga upp och reparera muskler?",
+      "answers": ["proteiner", "protein"],
+      "explain": "Proteiner är kroppens byggstenar och finns i t.ex. kyckling, fisk, ägg, bönor, linser och mejeriprodukter."
+    },
+    {
+      "id": "k05", "type": "mc", "topic": "Kost – Näringsämnen",
+      "q": "Vilken är INTE en uppgift för fett i kroppen enligt häftet?",
+      "options": ["Ge snabb energi till hjärnan", "Isolera mot kyla", "Skydda inre organ", "Hjälpa kroppen ta upp viktiga vitaminer"],
+      "answer": 0,
+      "explain": "Fett är energireserv och skydd: isolering mot kyla, skydd för inre organ och behövs för att ta upp vitaminer. Snabb energi till hjärnan kommer från kolhydrater."
+    },
+    {
+      "id": "k06", "type": "mc", "topic": "Kost – Näringsämnen",
+      "q": "Var finns nyttiga fetter?",
+      "options": ["Fisk, nötter, rapsolja och avokado", "Godis, läsk och chips", "Pasta, ris och potatis", "Morot, paprika och tomat"],
+      "answer": 0,
+      "explain": "Nyttiga fetter finns i t.ex. fisk, nötter, rapsolja och avokado."
+    },
+    {
+      "id": "k07", "type": "mc", "topic": "Kost – Tallriksmodellen",
+      "q": "Hur stor del av tallriken ska vara grönsaker och rotfrukter enligt tallriksmodellen?",
+      "options": ["Cirka 1/3", "Cirka 1/2", "Cirka 1/4", "Cirka 3/4"],
+      "answer": 0,
+      "explain": "Tallriksmodellen: ca 1/3 grönsaker och rotfrukter, 1/3 kolhydrater och 1/3 protein."
+    },
+    {
+      "id": "k08", "type": "mc", "topic": "Kost – Tallriksmodellen",
+      "q": "Vad ger grönsaker och rotfrukter kroppen?",
+      "options": ["Vitaminer, mineraler och fiber", "Snabb energi", "Fett", "Vatten och salt"],
+      "answer": 0,
+      "explain": "Grönsaker och rotfrukter ger vitaminer, mineraler och fiber."
+    },
+    {
+      "id": "k09", "type": "mc", "topic": "Kost – Tallriksmodellen",
+      "q": "Vilka livsmedel hör till kolhydratdelen av tallriken?",
+      "options": ["Potatis, pasta, ris eller gryn", "Kött, fisk, ägg", "Morot, paprika, broccoli", "Nötter, olja, avokado"],
+      "answer": 0,
+      "explain": "Kolhydratdelen består av potatis, pasta, ris eller gryn."
+    },
+    {
+      "id": "k10", "type": "mc", "topic": "Kost – Vätskebalans",
+      "q": "Hur stor del av kroppen består av vatten?",
+      "options": ["Cirka 60 %", "Cirka 30 %", "Cirka 90 %", "Cirka 45 %"],
+      "answer": 0,
+      "explain": "Kroppen består till cirka 60 % av vatten."
+    },
+    {
+      "id": "k11", "type": "mc", "topic": "Kost – Vätskebalans",
+      "q": "Vad händer med blodet om du inte dricker vatten när du tränar?",
+      "options": ["Det blir tjockare och hjärtat måste slå snabbare", "Det blir tunnare och lättare att pumpa", "Det får mer syre", "Ingenting, blodet påverkas inte"],
+      "answer": 0,
+      "explain": "Vid vätskeförlust blir blodet tjockare. Hjärtat tvingas slå snabbare, vilket gör dig trött och sänker prestationsförmågan."
+    },
+    {
+      "id": "k12", "type": "mc", "topic": "Kost – Vätskebalans",
+      "q": "Vilket är INTE ett symptom på vätskebrist enligt häftet?",
+      "options": ["Starkare muskler", "Huvudvärk", "Yrsel", "Koncentrationssvårigheter"],
+      "answer": 0,
+      "explain": "Symptom på vätskebrist: huvudvärk, yrsel, koncentrationssvårigheter och sämre reaktionsförmåga."
+    },
+    {
+      "id": "k13", "type": "mc", "topic": "Kost – Vätskebalans",
+      "q": "Vad är den bästa törstsläckaren?",
+      "options": ["Vanligt kranvatten", "Sportdryck", "Läsk", "Juice"],
+      "answer": 0,
+      "explain": "Vanligt kranvatten är den bästa törstsläckaren."
+    },
+    {
+      "id": "k14", "type": "mc", "topic": "Kost – Vätskebalans",
+      "q": "Varför svettas du när du tränar?",
+      "options": ["För att kyla ner kroppen", "För att bli av med koldioxid", "För att få mer energi", "För att musklerna ska växa"],
+      "answer": 0,
+      "explain": "När du tränar blir du varm och svettas för att kyla ner kroppen."
+    },
+    {
+      "id": "s01", "type": "mc", "topic": "Idrottsskador – Typer",
+      "q": "Vilka två huvudkategorier delas idrottsskador in i?",
+      "options": ["Akuta skador och överbelastningsskador", "Stora och små skador", "Muskelskador och benskador", "Inre och yttre skador"],
+      "answer": 0,
+      "explain": "Idrottsskador delas i huvudsak in i akuta skador och överbelastningsskador."
+    },
+    {
+      "id": "s02", "type": "mc", "topic": "Idrottsskador – Akuta",
+      "q": "Vad kännetecknar en akut skada?",
+      "options": ["Den uppstår plötsligt vid ett specifikt tillfälle, t.ex. en tackling", "Den kommer gradvis under flera veckor", "Den syns aldrig utanpå", "Den uppstår bara i skelettet"],
+      "answer": 0,
+      "explain": "En akut skada uppstår plötsligt vid ett specifikt tillfälle, t.ex. genom en tackling, ett fall eller en snabb vridning."
+    },
+    {
+      "id": "s03", "type": "mc", "topic": "Idrottsskador – Akuta",
+      "q": "Vad händer vid en stukning (ledbandsskada)?",
+      "options": ["Leden vrids utanför sitt normala rörelseomfång och ledbanden töjs ut eller brister", "Ett ben går helt av", "Muskeln får en inre blödning", "Benändarna glider helt ur led"],
+      "answer": 0,
+      "explain": "Vid stukning vrids leden utanför sitt normala rörelseomfång; ledbanden töjs ut eller brister delvis. Vanligast i fotleder och knän."
+    },
+    {
+      "id": "s04", "type": "mc", "topic": "Idrottsskador – Akuta",
+      "q": "Vad kallas det när en muskel belastas så hårt eller snabbt att den får små eller stora bristningar?",
+      "options": ["Muskelbristning (sträckning)", "Stukning", "Luxation", "Stressfraktur"],
+      "answer": 0,
+      "explain": "Muskelbristning/sträckning: muskelnätet eller senan får bristningar. Det gör omedelbart ont och en inre blödning bildas i muskeln."
+    },
+    {
+      "id": "s05", "type": "text", "topic": "Idrottsskador – Akuta",
+      "q": "Vad kallas det med ett annat ord när axeln \"hoppar ur led\"?",
+      "answers": ["urledvridning", "luxation"],
+      "explain": "Urledvridning (luxation): en hård stöt gör att benändarna glider helt ur sitt ledläge. Skall alltid behandlas av sjukvårdspersonal."
+    },
+    {
+      "id": "s06", "type": "text", "topic": "Idrottsskador – Akuta",
+      "q": "Vad är det medicinska ordet för benbrott?",
+      "answers": ["fraktur"],
+      "explain": "Benbrott (fraktur): ett ben i skelettet spricker eller går helt av på grund av yttre kraft."
+    },
+    {
+      "id": "s07", "type": "mc", "topic": "Idrottsskador – Överbelastning",
+      "q": "Hur uppstår överbelastningsskador?",
+      "options": ["Gradvis, när kroppen belastas upprepat utan tillräcklig vila", "Plötsligt vid ett fall", "Bara när man tränar i kyla", "När man dricker för lite vatten"],
+      "answer": 0,
+      "explain": "Överbelastningsskador uppstår gradvis över tid, när kroppen belastas upprepat utan att få tillräckligt med vila och återhämtning emellan."
+    },
+    {
+      "id": "s08", "type": "mc", "topic": "Idrottsskador – Överbelastning",
+      "q": "Smärta längs skenbenets insida efter mycket löpning på hårt underlag kallas …",
+      "options": ["benhinneinflammation", "hälsporre", "stressfraktur", "luxation"],
+      "answer": 0,
+      "explain": "Benhinneinflammation: smärta längs skenbenets insida. Vanligt vid mycket löpning eller hopp på hårt underlag i dåliga skor."
+    },
+    {
+      "id": "s09", "type": "mc", "topic": "Idrottsskador – Överbelastning",
+      "q": "Vad är en stressfraktur?",
+      "options": ["Små sprickor i ett ben som bildas över tid av hård träning", "Ett ben som går helt av vid ett fall", "En inflammation i en sena", "Ett ledband som brister"],
+      "answer": 0,
+      "explain": "Stressfraktur: ett ben får små sprickor över tid för att det inte hinner byggas upp lika snabbt som det bryts ner av hård träning."
+    },
+    {
+      "id": "s10", "type": "mc", "topic": "Idrottsskador – Överbelastning",
+      "q": "Vad händer vid en senfästesinflammation (t.ex. hälsporre)?",
+      "options": ["Mikroskopiska skador bildas i senans fäste mot benet", "Senan går helt av", "Benet spricker", "Leden vrids ur läge"],
+      "answer": 0,
+      "explain": "Vid hälsporre/senfästesinflammation bildas mikroskopiska skador i senans fäste mot benet på grund av enformig belastning."
+    },
+    {
+      "id": "s11", "type": "mc", "topic": "Idrottsskador – Läkning",
+      "q": "Vilken är den första fasen i kroppens läkningsprocess?",
+      "options": ["Inflammationsfasen", "Reparationsfasen", "Ombyggnadsfasen", "Rehabiliteringsfasen"],
+      "answer": 0,
+      "explain": "Läkningen har tre faser: inflammationsfasen (dag 1–3), reparationsfasen (dag 3 – ca 6 veckor) och ombyggnadsfasen (veckor till månader)."
+    },
+    {
+      "id": "s12", "type": "mc", "topic": "Idrottsskador – Läkning",
+      "q": "Vad gör de vita blodkropparna i inflammationsfasen?",
+      "options": ["Städar bort skadade celler", "Bildar ny ärrvävnad", "Transporterar syre", "Stoppar blödningen med tryck"],
+      "answer": 0,
+      "explain": "I inflammationsfasen strömmar vita blodkroppar till för att \"städa bort\" skadade celler."
+    },
+    {
+      "id": "s13", "type": "mc", "topic": "Idrottsskador – Läkning",
+      "q": "Vad bildar kroppen i reparationsfasen?",
+      "options": ["Ny ersättningsvävnad (ärrvävnad)", "Nya blodkroppar", "Mer ledvätska", "Nytt brosk"],
+      "answer": 0,
+      "explain": "I reparationsfasen (dag 3 – ca 6 veckor) bildar kroppen ny ersättningsvävnad (ärrvävnad) för att laga bristningen."
+    },
+    {
+      "id": "s14", "type": "mc", "topic": "Idrottsskador – Läkning",
+      "q": "Hur länge pågår inflammationsfasen ungefär?",
+      "options": ["Dag 1–3", "Dag 3 till 6 veckor", "Flera månader", "Några timmar"],
+      "answer": 0,
+      "explain": "Inflammationsfasen pågår dag 1–3: blodkärl brister, området blir svullet, rött, varmt och ömt."
+    },
+    {
+      "id": "b01", "type": "text", "topic": "Behandling – PRICE",
+      "q": "Vad står P för i PRICE?",
+      "answers": ["protect", "skydda", "skydd"],
+      "explain": "P = Protect (skydda): avbryt träningen och säkra området så att skadan inte förvärras."
+    },
+    {
+      "id": "b02", "type": "text", "topic": "Behandling – PRICE",
+      "q": "Vad står R för i PRICE?",
+      "answers": ["rest", "vila"],
+      "explain": "R = Rest (vila): håll den skadade delen helt stilla så att belastningen inte driver på blödningen."
+    },
+    {
+      "id": "b03", "type": "text", "topic": "Behandling – PRICE",
+      "q": "Vad står I för i PRICE?",
+      "answers": ["ice", "kyla", "is"],
+      "explain": "I = Ice (kyla): kyl i 15–20 minuter med tyg emellan. Bedövar smärtnerverna och ger smärtlindring."
+    },
+    {
+      "id": "b04", "type": "text", "topic": "Behandling – PRICE",
+      "q": "Vad står C för i PRICE?",
+      "answers": ["compression", "kompression", "tryck", "tryckförband"],
+      "explain": "C = Compression (tryck): vira ett elastiskt förband stramt direkt. Det viktigaste steget!"
+    },
+    {
+      "id": "b05", "type": "text", "topic": "Behandling – PRICE",
+      "q": "Vad står E för i PRICE?",
+      "answers": ["elevation", "högläge"],
+      "explain": "E = Elevation (högläge): placera skadan högre än hjärtats nivå så att blodtrycket i området minskar."
+    },
+    {
+      "id": "b06", "type": "mc", "topic": "Behandling – PRICE",
+      "q": "Vilket steg i PRICE är det viktigaste enligt häftet?",
+      "options": ["Compression (tryck)", "Ice (kyla)", "Rest (vila)", "Elevation (högläge)"],
+      "answer": 0,
+      "explain": "Compression är det viktigaste steget: trycket kramar åt blodkärlen manuellt och stoppar svullnaden."
+    },
+    {
+      "id": "b07", "type": "mc", "topic": "Behandling – PRICE",
+      "q": "Hur länge ska man kyla en akut skada?",
+      "options": ["15–20 minuter, med tyg emellan", "2–3 minuter direkt på huden", "Minst en timme", "Hela natten"],
+      "answer": 0,
+      "explain": "Kyl i 15–20 minuter (med tyg emellan). Kylan bedövar smärtnerverna."
+    },
+    {
+      "id": "b08", "type": "mc", "topic": "Behandling – PRICE",
+      "q": "Varför hjälper högläge (elevation) vid en akut skada?",
+      "options": ["Blodtrycket i området minskar så att blödningen dämpas", "Musklerna får mer syre", "Smärtnerverna bedövas", "Ledbanden läker snabbare"],
+      "answer": 0,
+      "explain": "Högläge minskar blodtrycket i området så att blödningen dämpas."
+    },
+    {
+      "id": "b09", "type": "mc", "topic": "Behandling – PRICE",
+      "q": "Vad är målet med det akuta omhändertagandet vid en mjukdelsskada?",
+      "options": ["Minimera den inre blödningen direkt", "Få igång rörligheten direkt", "Värma upp området", "Stärka muskeln"],
+      "answer": 0,
+      "explain": "Vid en akut mjukdelsskada (stukning eller muskelbristning) gäller det att minimera den inre blödningen direkt."
+    },
+    {
+      "id": "b10", "type": "mc", "topic": "Behandling – PRICE",
+      "q": "Hur länge pågår det akuta omhändertagandet ungefär?",
+      "options": ["De första 48 timmarna", "De första 6 veckorna", "Den första timmen", "De första 10 minuterna"],
+      "answer": 0,
+      "explain": "Behandling handlar om akut omhändertagande (första 48 timmarna) och långsiktig rehabilitering."
+    },
+    {
+      "id": "r01", "type": "mc", "topic": "Behandling – Rehabilitering",
+      "q": "Varför räcker det sällan att bara vila för att en idrottsskada ska läka helt?",
+      "options": ["Vävnaden måste tränas upp stegvis för att bli lika stark som innan", "Vila gör att blödningen ökar", "Kroppen kan inte läka utan smärta", "Vila gör benen mjukare"],
+      "answer": 0,
+      "explain": "Att bara vila botar sällan en idrottsskada helt. För att vävnaden ska bli lika stark som innan måste den tränas upp stegvis."
+    },
+    {
+      "id": "r02", "type": "mc", "topic": "Behandling – Rehabilitering",
+      "q": "Vad är steg 1 i rehabiliteringstrappan?",
+      "options": ["Avlastning & rörlighet", "Styrka & balans", "Grenspecifik träning", "Full återgång"],
+      "answer": 0,
+      "explain": "Steg 1: Avlastning & rörlighet. Minska blödningen med PRICE och börja sedan försiktigt röra på leden utan belastning."
+    },
+    {
+      "id": "r03", "type": "mc", "topic": "Behandling – Rehabilitering",
+      "q": "Att balansera på ett ben och göra tåhävningar efter en stukad fot hör till vilket steg?",
+      "options": ["Steg 2: Styrka & balans", "Steg 1: Avlastning & rörlighet", "Steg 3: Grenspecifik träning", "Steg 4: Full återgång"],
+      "answer": 0,
+      "explain": "Steg 2: Styrka & balans. När vävnaden börjar läka behöver den belastas lätt, t.ex. balans på ett ben och tåhävningar."
+    },
+    {
+      "id": "r04", "type": "mc", "topic": "Behandling – Rehabilitering",
+      "q": "När kan du delta i matcher och hård träning igen?",
+      "options": ["När all rörelse är helt smärtfri och du har återfått full styrka", "Så fort svullnaden gått ner", "Efter exakt två veckor", "När du klarar lätt jogg"],
+      "answer": 0,
+      "explain": "Steg 4: Full återgång. När du kan utföra all rörelse helt smärtfritt och har återfått full styrka."
+    },
+    {
+      "id": "r05", "type": "mc", "topic": "Behandling – Rehabilitering",
+      "q": "Lätt jogg och att passa en boll är exempel på …",
+      "options": ["grenspecifik träning (steg 3)", "avlastning (steg 1)", "styrka & balans (steg 2)", "full återgång (steg 4)"],
+      "answer": 0,
+      "explain": "Steg 3: Grenspecifik träning. Börja med enkla övningar anpassade för din idrott utan att gå för hårt fram."
+    },
+    {
+      "id": "h01", "type": "mc", "topic": "Handlingsplaner – Stukad fot",
+      "q": "Vad är det FÖRSTA du gör vid en stukad fot enligt handlingsplanen?",
+      "options": ["Lägger på ett stramt tryckförband runt fotleden", "Lägger en kylpåse direkt på huden", "Lägger foten högre än hjärtat", "Går runt för att testa foten"],
+      "answer": 0,
+      "explain": "Stukad fot: 1) stramt tryckförband (C), 2) kylpåse utanpå lindan (I), 3) foten högre än hjärtat (E), 4) vila från belastning det närmaste dygnet (R)."
+    },
+    {
+      "id": "h02", "type": "mc", "topic": "Handlingsplaner – Stukad fot",
+      "q": "Var ska kylpåsen placeras vid en stukad fot?",
+      "options": ["Utanpå tryckförbandet", "Direkt mot huden under förbandet", "På knät", "Under foten"],
+      "answer": 0,
+      "explain": "Placera en kylpåse utanpå lindan (I)."
+    },
+    {
+      "id": "h03", "type": "mc", "topic": "Handlingsplaner – Näsblod",
+      "q": "Hur ska man hålla huvudet vid näsblod?",
+      "options": ["Sitt upp och luta huvudet svagt framåt", "Luta huvudet bakåt", "Ligg ner platt", "Håll huvudet mellan knäna"],
+      "answer": 0,
+      "explain": "Sitt upp och luta huvudet svagt framåt. Att luta bakåt gör att blodet rinner ner i magen och orsakar illamående."
+    },
+    {
+      "id": "h04", "type": "mc", "topic": "Handlingsplaner – Näsblod",
+      "q": "Hur länge ska man klämma om de mjuka näsvingarna vid näsblod?",
+      "options": ["10 minuter oavbrutet", "1 minut", "30 sekunder, flera gånger", "En timme"],
+      "answer": 0,
+      "explain": "Kläm hårt om de mjuka näsvingarna oavbrutet i 10 minuter."
+    },
+    {
+      "id": "h05", "type": "mc", "topic": "Handlingsplaner – Näsblod",
+      "q": "Varför lägger man kyla över näsryggen eller i nacken vid näsblod?",
+      "options": ["Så att blodkärlen drar ihop sig", "För att lindra huvudvärk", "För att stoppa illamåendet", "För att man ska slappna av"],
+      "answer": 0,
+      "explain": "Lägg kyla över näsryggen eller i nacken så att blodkärlen drar ihop sig."
+    },
+    {
+      "id": "h06", "type": "mc", "topic": "Handlingsplaner – Hjärnskakning",
+      "q": "Vilket är INTE ett symptom på hjärnskakning enligt häftet?",
+      "options": ["Svullen fotled", "Huvudvärk", "Minnesluckor", "Ljus- och ljudkänslighet"],
+      "answer": 0,
+      "explain": "Symptom på hjärnskakning: huvudvärk, yrsel, illamående, minnesluckor, ljus- och ljudkänslighet."
+    },
+    {
+      "id": "h07", "type": "mc", "topic": "Handlingsplaner – Hjärnskakning",
+      "q": "Vad gör du om någon fått en hjärnskakning?",
+      "options": ["Avbryter aktiviteten direkt, lämnar aldrig personen ensam och kontaktar vuxen/sjukvård", "Låter personen spela vidare om hen vill", "Ger personen något att dricka och väntar", "Lägger personen i mörkt rum och går därifrån"],
+      "answer": 0,
+      "explain": "Åtgärd: avbryt aktiviteten direkt. Lämna aldrig personen ensam och kontakta vuxen/sjukvård."
+    },
+    {
+      "id": "h08", "type": "mc", "topic": "Handlingsplaner – Hjärnskakning",
+      "q": "Vad innebär hjärnvila efter en hjärnskakning?",
+      "options": ["Vila i mörkt, tyst rum utan skärmtid, läxor eller fysisk ansträngning", "Titta på lugna filmer i ett mörkt rum", "Sova så mycket som möjligt i en vecka", "Lätt jogging i lugnt tempo"],
+      "answer": 0,
+      "explain": "Hjärnvila: vila i ett mörkt och tyst rum. Totalt förbud mot skärmtid (mobil/TV), läxor och fysisk ansträngning de första dygnen."
+    },
+    {
+      "id": "h09", "type": "text", "topic": "Handlingsplaner – Hjärnskakning",
+      "q": "Vad kallas skadan när hjärnan rör sig inne i skallen efter en kraftig smäll mot huvudet?",
+      "answers": ["hjärnskakning"],
+      "explain": "Vid en kraftig smäll mot huvudet (hjärnskakning) kan hjärnan röra sig inne i skallen."
+    }
+  ]
+}
